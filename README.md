@@ -8,7 +8,7 @@ Usage:
 const char cpp[] = "int my_function(float* val); // do something";
 
 cppnom::Result result;
-if( !tokenize(cpp, strlen(cpp), 0, result) )
+if( !cppnom::tokenize(cpp, strlen(cpp), 0, result) )
 {
 	printf("tokenize failed at line %d: %s\n", result.error_line, result.error);
 	return;
