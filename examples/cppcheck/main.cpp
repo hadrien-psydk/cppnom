@@ -141,7 +141,7 @@ void print_tokens(const cppnom::Token* tokens, int token_count, bool debug_info)
 	static const Color colors[] = {
 		{  -1,   0,   0 }, // TT_None
 		{  70,  70, 120 }, // TT_Space
-	    {  70, 120,   0 }, // TT_EmptyLine
+		{  70, 120,   0 }, // TT_EmptyLine
 		{  50, 255,  50 }, // TT_CommentLine
 		{ 100, 200, 100 }, // TT_CommentBlock
 		{  -1,   0,   0 }, // TT_Identifier
