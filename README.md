@@ -1,5 +1,5 @@
 # cppnom
-cppnom is a C++ tokenizer that keeps both preprocessor, comments and other C++ symbols in order to perform treatment at the source code level, for example for syntax highlighting or to verify coding style. After parsing, the original source file can be rebuilt from the tokens. The only loss of information concerns files with mixed newline character styles.
+A C++ tokenizer that retains all input information (comments, blank spaces, preprocessor directives) in order to perform treatment at the source code level, for example for syntax highlighting or to verify coding style. After parsing, the original source file can be rebuilt from the tokens. The only loss of information concerns files with mixed newline character styles.
 
 Does not use C++ exceptions. Does not use the C++ Standard Library.
 
