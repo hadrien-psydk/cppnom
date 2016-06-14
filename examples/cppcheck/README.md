@@ -1,7 +1,7 @@
 # cppcheck
 
 This program reads a C++ file, tokenizes it with cppnom, prints the tokens
-in the terminal with differents colors, regenerates the C++ file and compare
+in the terminal with differents colors, regenerates the C++ file and compares
 the regenerated file with the original file.
 
 If you are on Ubuntu, ensure you have the GNU C++ toolchain installed:
