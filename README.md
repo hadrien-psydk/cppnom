@@ -11,11 +11,13 @@ cppnom::Result result;
 if( !cppnom::tokenize(cpp, strlen(cpp), 0, result) )
 {
 	printf("tokenize failed at line %d: %s\n", result.error_line, result.error);
-	return;
 }
-for(int i = 0; i < result.count; ++i)
+else
 {
-	// Do something with the tokens
+	for(int i = 0; i < result.count; ++i)
+	{
+		// Do something with the tokens
+	}
 }
 cppnom::free_result(result);
 
